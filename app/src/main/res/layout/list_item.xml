@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/linearLayoutItem"
+    android:background="@color/light_background"
+   >
+     <TextView
+        style="@style/textViewHelp"
+         android:id="@+id/tvSubItemText"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.0"
+        android:text="How do I change my privacy settings if my settings is not really my, but I really need to change privacy settings?"/>
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="7dp"
+        android:layout_marginLeft="30dp"
+        android:layout_height="14dp"
+        android:src="@drawable/arrow"
+        android:id="@+id/arrow"
+        android:contentDescription="arrow"/>
+</LinearLayout>

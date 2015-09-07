@@ -1,0 +1,39 @@
+<resources>
+
+
+    <style name="textViewHelp" >
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <style name="textViewHeader">
+        <item name="android:textSize">24sp</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="linearlayoutMain">
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+    <style name="linearLayoutItem" parent="linearlayoutMain">
+        <item name="android:paddingTop">28dp</item>
+        <item name="android:paddingBottom">28dp</item>
+    </style>
+
+    <style name="linearLayoutHeaderItem" parent="linearlayoutMain">
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+    </style>
+    <style name="linearLayoutDetailedHeaderItem" parent="linearlayoutMain">
+        <item name="android:paddingTop">21dp</item>
+        <item name="android:paddingBottom">0dp</item>
+
+    </style>
+    <style name="linearLayoutDetailedItem" parent="linearlayoutMain">
+        <item name="android:paddingTop">22.5dp</item>
+        <item name="android:paddingBottom">22.5dp</item>
+    </style>
+
+    <style name="ToolBarTheme">ToolBarTheme</style>
+</resources>

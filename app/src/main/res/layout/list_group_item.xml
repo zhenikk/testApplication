@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="35dp"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@color/light_background"
+    >
+    <ImageView
+        android:layout_marginLeft="2dp"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/mainMenuItemIcon"
+        android:contentDescription="menu icon"/>
+    <TextView
+        android:id="@+id/tvListHeaderText"
+        android:padding="2dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="32dp"
+        android:textColor="@color/green_text"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:lineSpacingMultiplier="1.0"
+        android:text="Account settijojjojoijiohtrdfhyu[;p[edtfrhyujkilo;ptfgyhuk,;l'.rtyguhkpol[5t6yuoijkngs"/>
+
+</LinearLayout>
